@@ -1,0 +1,33 @@
+:root {
+  --text-color: white;
+}
+* {
+  font-family: "Roboto Mono", monospace;
+}
+img {
+  outline: yellow 2px solid;
+  width: 40%;
+}
+img:hover {
+  width: 50%;
+}
+a:visited {
+  color: yellow;
+}
+.title {
+  color: var(--text-color);
+}
+.header {
+  font-style: italic;
+}
+#qoute {
+  color: #5fbcf3;
+}
+main p .prefix {
+  color: #5fbcf3;
+  font-weight: bold;
+}
+.main .section1 {
+  color: white;
+  font-weight: bold;
+}
